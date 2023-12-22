@@ -1,11 +1,8 @@
-import { useState } from 'react'
-
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
    <h1>
-    Hy! This is first app
+    Hy! This is first app || vite + react
    </h1>
   )
 }
