@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import App from './App';
-import Card from './Card';
+import Card from './Component/Card';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -10,3 +10,11 @@ root.render(
     <Card />
     </>
 );
+
+// ReactDOM.createRoot(document.getElementById('root')).render(
+
+//   <>  
+//   <App />
+//   <Card />
+//   </>
+// )
