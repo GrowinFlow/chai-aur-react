@@ -1,3 +1,5 @@
+import App from './App'
+
 function Card(){
     return(
         <>
@@ -6,7 +8,7 @@ function Card(){
         <pre>
             Lorem ipsum, dolor sit amet
             consectetur adipisicing 
-            elit.              Hic, quos quo omnis ullam
+            elit.      ||*** <App/>    ***||   Hic, quos quo omnis ullam
             facere modi distinctio 
             iure ratione ut explicabo!
         </pre>
