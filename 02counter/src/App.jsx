@@ -11,9 +11,21 @@ function App() {
  
     const addValue = () => {
       if (counter<20) {
-      counter = counter + 1;
-      setCounter(counter);
+      // counter = counter + 1;
+      // setCounter(counter);
+      setCounter(counter + 1)
+
+
+      // interview question  [please uncomment code and try step by step]
+      // #01
       // setCounter(counter + 1)
+      // setCounter(counter + 1)
+      // setCounter(counter + 1)
+
+      // #02
+      // setCounter(prevCounter => prevCounter + 1)
+      // setCounter(prevCounter => prevCounter + 1)
+      // setCounter(prevCounter => prevCounter + 1)
     }
     };
  
