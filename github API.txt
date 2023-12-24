@@ -2,8 +2,9 @@ GitHub  api ===>   https://api.github.com/users/GrowinFlow
 
 
 
-tailwind command ===>  npm install -D tailwindcss postcss autoprefixer
-                       npx tailwindcss init -p
+tailwind command ===>  
+npm install -D tailwindcss postcss autoprefixer
+npx tailwindcss init -p
 
 
 /** @type {import('tailwindcss').Config} */

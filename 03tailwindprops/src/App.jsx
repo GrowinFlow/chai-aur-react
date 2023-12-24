@@ -9,8 +9,8 @@ function App() {
         Tailwind
       </h1>
 
-      <Card userName="Ai En." btnText="Click me" /> //use props
-      <Card userName="noya" btnText="visit now" />
+      <Card productName="Ai En." btnText="Free" price="29"/> //use props
+      <Card productName="noya" btnText="Buy now" price="72"/>
       <Card /> // no use props
       
     </>
